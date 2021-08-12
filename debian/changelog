@@ -1,3 +1,10 @@
+postfix (3.4.13-0ubuntu1.1) focal; urgency=medium
+
+  * d/postfix.postinst: tolerate search domain with a leading dot
+    (LP: #1906970)
+
+ -- Paride Legovini <paride@ubuntu.com>  Thu, 12 Aug 2021 14:26:09 +0200
+
 postfix (3.4.13-0ubuntu1) focal; urgency=medium
 
   * New upstream release: 3.4.13
