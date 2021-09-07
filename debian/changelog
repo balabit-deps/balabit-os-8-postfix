@@ -1,3 +1,9 @@
+postfix (3.4.13-0ubuntu1.2) focal; urgency=medium
+
+  * d/rules: Removed LDFLAG -Bsymbolic-functions (LP: #1885403).
+
+ -- Miriam España Acebal <miriam.espana@canonical.com>  Tue, 07 Sep 2021 08:58:01 +0200
+
 postfix (3.4.13-0ubuntu1.1) focal; urgency=medium
 
   * d/postfix.postinst: tolerate search domain with a leading dot
