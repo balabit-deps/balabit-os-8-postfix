@@ -1,3 +1,14 @@
+postfix (3.4.13-0ubuntu1.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: SMTP smuggling (LP: #2049337)
+    - debian/patches/CVE-2023-51764.patch: introduced
+      `smtpd_forbid_bare_newline`. With "smtpd_forbid_bare_newline = yes",
+       the Postfix SMTP server disconnects a remote SMTP client that
+       sends a line ending in a 'bare newline'.
+    - CVE-2023-51764 
+
+ -- Allen Huang <allen.huang@canonical.com>  Tue, 16 Jan 2024 16:03:32 +0000
+
 postfix (3.4.13-0ubuntu1.2) focal; urgency=medium
 
   * d/rules: Removed LDFLAG -Bsymbolic-functions (LP: #1885403).

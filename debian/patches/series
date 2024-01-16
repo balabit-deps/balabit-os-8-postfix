@@ -16,3 +16,4 @@
 70_postfix-check.diff
 tls_version.diff
 debian-man-name.diff
+CVE-2023-51764.patch
