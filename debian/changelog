@@ -1,3 +1,13 @@
+postfix (3.4.13-0ubuntu1.4) focal-security; urgency=medium
+
+  * SECURITY UPDATE: SMTP smuggling (LP: #2049337)
+    - debian/patches/CVE-2023-51764-2.patch: improved fix with reduced
+      risks of regression. Introduced
+      "smtpd_forbid_bare_newline = normalize".
+    - CVE-2023-51764
+
+ -- Allen Huang <allen.huang@canonical.com>  Mon, 29 Jan 2024 16:49:03 +0800
+
 postfix (3.4.13-0ubuntu1.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: SMTP smuggling (LP: #2049337)
